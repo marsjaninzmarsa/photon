@@ -51,8 +51,8 @@ function sendPageview(url, hash) {
   }
 }
 
-function sendEvent(category, hash, url) {
-  ga('send', 'event', category, hash.substring(1), url);
+function sendEvent(category, hash, url, feedback) {
+  ga('send', 'event', category, hash.substring(1), url, feedback);
 }
 
 module.exports = {PREFIX, getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};
