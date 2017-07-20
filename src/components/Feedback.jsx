@@ -30,7 +30,7 @@ const Feedback = React.createClass({
             >🙂
             </a>
             <a className="no-underline f3 lh-copy dib pt2"
-                href="https://github.com/FirefoxUX/photon/issues/new"
+                href="https://github.com/FirefoxUX/photon/issues/new?title=Feedback:%20&body=%23%23%23%20Expected%20Content%0A%0A%23%23%23%20Actual%20Content%0A%0A%23%23%23%20Affected%20Page%0A"
                 id="thumbs-down"
             >😟
             </a>
